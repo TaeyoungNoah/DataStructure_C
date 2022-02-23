@@ -1,0 +1,10 @@
+# ninja log v5
+104	163	1645594923047051167	Cpractice	952b1e36d33b3dc9
+0	105	1645594877867040778	CMakeFiles/Cpractice.dir/lecture/hello.c.o	fae3a72bf119a490
+1	220	1645578896172318131	CMakeFiles/Cpractice.dir/main.c.o	d176182170cd0eef
+0	62	1645595697234197841	build.ninja	f65b336316a13d56
+0	104	1645594922987675172	CMakeFiles/Cpractice.dir/lecture/variable.c.o	50c499988d696b77
+0	203	1645596252685704258	CMakeFiles/Cpractice.dir/book/hanoi.c.o	bea62e6bba62aaa9
+203	262	1645596252746607110	Cpractice	b4f131e8de2e2945
+0	187	1645596262379882087	CMakeFiles/Cpractice.dir/book/hanoi.c.o	bea62e6bba62aaa9
+188	243	1645596262437894801	Cpractice	b4f131e8de2e2945
