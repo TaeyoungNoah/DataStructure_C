@@ -39,13 +39,13 @@ include CMakeFiles/rules.ninja
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
-cmake_ninja_workdir = /Users/taeyoung/Desktop/Cpractice/cmake-build-debug/
+cmake_ninja_workdir = /Users/taeyoung/Desktop/DataStruecture/Cpractice/cmake-build-debug/
 
 #############################################
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/taeyoung/Desktop/Cpractice/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/taeyoung/Desktop/Cpractice -B/Users/taeyoung/Desktop/Cpractice/cmake-build-debug
+  COMMAND = cd /Users/taeyoung/Desktop/DataStruecture/Cpractice/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/taeyoung/Desktop/DataStruecture/Cpractice -B/Users/taeyoung/Desktop/DataStruecture/Cpractice/cmake-build-debug
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -57,7 +57,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/taeyoung/Desktop/Cpractice/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  COMMAND = cd /Users/taeyoung/Desktop/DataStruecture/Cpractice/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -72,11 +72,11 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 
 build cmake_object_order_depends_target_Cpractice: phony || CMakeFiles/Cpractice.dir
 
-build CMakeFiles/Cpractice.dir/book/hanoi.c.o: C_COMPILER__Cpractice_Debug /Users/taeyoung/Desktop/Cpractice/book/hanoi.c || cmake_object_order_depends_target_Cpractice
-  DEP_FILE = CMakeFiles/Cpractice.dir/book/hanoi.c.o.d
+build CMakeFiles/Cpractice.dir/Jungol/structure/199.c.o: C_COMPILER__Cpractice_Debug /Users/taeyoung/Desktop/DataStruecture/Cpractice/Jungol/structure/199.c || cmake_object_order_depends_target_Cpractice
+  DEP_FILE = CMakeFiles/Cpractice.dir/Jungol/structure/199.c.o.d
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -std=gnu99
   OBJECT_DIR = CMakeFiles/Cpractice.dir
-  OBJECT_FILE_DIR = CMakeFiles/Cpractice.dir/book
+  OBJECT_FILE_DIR = CMakeFiles/Cpractice.dir/Jungol/structure
 
 
 # =============================================================================
@@ -86,7 +86,7 @@ build CMakeFiles/Cpractice.dir/book/hanoi.c.o: C_COMPILER__Cpractice_Debug /User
 #############################################
 # Link the executable Cpractice
 
-build Cpractice: C_EXECUTABLE_LINKER__Cpractice_Debug CMakeFiles/Cpractice.dir/book/hanoi.c.o
+build Cpractice: C_EXECUTABLE_LINKER__Cpractice_Debug CMakeFiles/Cpractice.dir/Jungol/structure/199.c.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk
   OBJECT_DIR = CMakeFiles/Cpractice.dir
   POST_BUILD = :
@@ -103,7 +103,7 @@ build Cpractice: C_EXECUTABLE_LINKER__Cpractice_Debug CMakeFiles/Cpractice.dir/b
 # =============================================================================
 
 #############################################
-# Folder: /Users/taeyoung/Desktop/Cpractice/cmake-build-debug
+# Folder: /Users/taeyoung/Desktop/DataStruecture/Cpractice/cmake-build-debug
 
 build all: phony Cpractice
 

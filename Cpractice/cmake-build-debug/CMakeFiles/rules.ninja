@@ -42,7 +42,7 @@ rule C_EXECUTABLE_LINKER__Cpractice_Debug
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/taeyoung/Desktop/Cpractice -B/Users/taeyoung/Desktop/Cpractice/cmake-build-debug
+  command = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/taeyoung/Desktop/DataStruecture/Cpractice -B/Users/taeyoung/Desktop/DataStruecture/Cpractice/cmake-build-debug
   description = Re-running CMake...
   generator = 1
 

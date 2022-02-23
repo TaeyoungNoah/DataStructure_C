@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/Users/taeyoung/Desktop/Cpractice/cmake-build-debug"
+			"value" : "/Users/taeyoung/Desktop/DataStruecture/Cpractice/cmake-build-debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -419,7 +419,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/Users/taeyoung/Desktop/Cpractice"
+			"value" : "/Users/taeyoung/Desktop/DataStruecture/Cpractice"
 		},
 		{
 			"name" : "CMAKE_INSTALL_NAME_TOOL",
@@ -991,7 +991,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/taeyoung/Desktop/Cpractice/cmake-build-debug"
+			"value" : "/Users/taeyoung/Desktop/DataStruecture/Cpractice/cmake-build-debug"
 		},
 		{
 			"name" : "Cpractice_IS_TOP_LEVEL",
@@ -1015,7 +1015,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/taeyoung/Desktop/Cpractice"
+			"value" : "/Users/taeyoung/Desktop/DataStruecture/Cpractice"
 		}
 	],
 	"kind" : "cache",

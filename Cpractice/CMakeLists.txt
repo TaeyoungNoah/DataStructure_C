@@ -3,4 +3,4 @@ project(Cpractice C)
 
 set(CMAKE_C_STANDARD 99)
 
-add_executable(Cpractice book/hanoi.c)
+add_executable(Cpractice Jungol/structure/199.c)
