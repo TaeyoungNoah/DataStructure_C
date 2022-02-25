@@ -3,4 +3,4 @@ project(Cpractice C)
 
 set(CMAKE_C_STANDARD 99)
 
-add_executable(Cpractice Jungol/pointer/204.c)
+add_executable(Cpractice Jungol/function/590.c)
