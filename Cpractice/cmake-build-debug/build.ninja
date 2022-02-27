@@ -72,11 +72,23 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 
 build cmake_object_order_depends_target_Cpractice: phony || CMakeFiles/Cpractice.dir
 
-build CMakeFiles/Cpractice.dir/Jungol/function/590.c.o: C_COMPILER__Cpractice_Debug /Users/taeyoung/Desktop/DataStruecture/Cpractice/Jungol/function/590.c || cmake_object_order_depends_target_Cpractice
-  DEP_FILE = CMakeFiles/Cpractice.dir/Jungol/function/590.c.o.d
+build CMakeFiles/Cpractice.dir/book/chap03/Problem03-2/ArrayList.c.o: C_COMPILER__Cpractice_Debug /Users/taeyoung/Desktop/DataStruecture/Cpractice/book/chap03/Problem03-2/ArrayList.c || cmake_object_order_depends_target_Cpractice
+  DEP_FILE = CMakeFiles/Cpractice.dir/book/chap03/Problem03-2/ArrayList.c.o.d
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -std=gnu99
   OBJECT_DIR = CMakeFiles/Cpractice.dir
-  OBJECT_FILE_DIR = CMakeFiles/Cpractice.dir/Jungol/function
+  OBJECT_FILE_DIR = CMakeFiles/Cpractice.dir/book/chap03/Problem03-2
+
+build CMakeFiles/Cpractice.dir/book/chap03/Problem03-2/NameCard.c.o: C_COMPILER__Cpractice_Debug /Users/taeyoung/Desktop/DataStruecture/Cpractice/book/chap03/Problem03-2/NameCard.c || cmake_object_order_depends_target_Cpractice
+  DEP_FILE = CMakeFiles/Cpractice.dir/book/chap03/Problem03-2/NameCard.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -std=gnu99
+  OBJECT_DIR = CMakeFiles/Cpractice.dir
+  OBJECT_FILE_DIR = CMakeFiles/Cpractice.dir/book/chap03/Problem03-2
+
+build CMakeFiles/Cpractice.dir/book/chap03/Problem03-2/NameCardMain.c.o: C_COMPILER__Cpractice_Debug /Users/taeyoung/Desktop/DataStruecture/Cpractice/book/chap03/Problem03-2/NameCardMain.c || cmake_object_order_depends_target_Cpractice
+  DEP_FILE = CMakeFiles/Cpractice.dir/book/chap03/Problem03-2/NameCardMain.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -std=gnu99
+  OBJECT_DIR = CMakeFiles/Cpractice.dir
+  OBJECT_FILE_DIR = CMakeFiles/Cpractice.dir/book/chap03/Problem03-2
 
 
 # =============================================================================
@@ -86,7 +98,7 @@ build CMakeFiles/Cpractice.dir/Jungol/function/590.c.o: C_COMPILER__Cpractice_De
 #############################################
 # Link the executable Cpractice
 
-build Cpractice: C_EXECUTABLE_LINKER__Cpractice_Debug CMakeFiles/Cpractice.dir/Jungol/function/590.c.o
+build Cpractice: C_EXECUTABLE_LINKER__Cpractice_Debug CMakeFiles/Cpractice.dir/book/chap03/Problem03-2/ArrayList.c.o CMakeFiles/Cpractice.dir/book/chap03/Problem03-2/NameCard.c.o CMakeFiles/Cpractice.dir/book/chap03/Problem03-2/NameCardMain.c.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk
   OBJECT_DIR = CMakeFiles/Cpractice.dir
   POST_BUILD = :
