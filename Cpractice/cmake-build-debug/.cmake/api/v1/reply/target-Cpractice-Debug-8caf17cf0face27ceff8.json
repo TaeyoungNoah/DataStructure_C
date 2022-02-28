@@ -52,9 +52,7 @@
 			},
 			"sourceIndexes" : 
 			[
-				1,
-				2,
-				4
+				0
 			]
 		}
 	],
@@ -84,20 +82,10 @@
 	"sourceGroups" : 
 	[
 		{
-			"name" : "Header Files",
-			"sourceIndexes" : 
-			[
-				0,
-				3
-			]
-		},
-		{
 			"name" : "Source Files",
 			"sourceIndexes" : 
 			[
-				1,
-				2,
-				4
+				0
 			]
 		}
 	],
@@ -105,31 +93,9 @@
 	[
 		{
 			"backtrace" : 1,
-			"path" : "book/chap03/Problem03-2/ArrayList.h",
+			"compileGroupIndex" : 0,
+			"path" : "book/chap04/Problem04-2/DummyNode.c",
 			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 1,
-			"compileGroupIndex" : 0,
-			"path" : "book/chap03/Problem03-2/ArrayList.c",
-			"sourceGroupIndex" : 1
-		},
-		{
-			"backtrace" : 1,
-			"compileGroupIndex" : 0,
-			"path" : "book/chap03/Problem03-2/NameCard.c",
-			"sourceGroupIndex" : 1
-		},
-		{
-			"backtrace" : 1,
-			"path" : "book/chap03/Problem03-2/NameCard.h",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 1,
-			"compileGroupIndex" : 0,
-			"path" : "book/chap03/Problem03-2/NameCardMain.c",
-			"sourceGroupIndex" : 1
 		}
 	],
 	"type" : "EXECUTABLE"
