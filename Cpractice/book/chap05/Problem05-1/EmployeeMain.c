@@ -36,6 +36,6 @@ int main() {
     stpcpy(pemp->name, "4번직원");
     LInsert(&list, pemp);
 
-    
+
     return 0;
 }
