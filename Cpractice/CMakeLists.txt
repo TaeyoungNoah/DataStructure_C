@@ -3,4 +3,4 @@ project(Cpractice C)
 
 set(CMAKE_C_STANDARD 99)
 
-add_executable(Cpractice CodeUp/practice/1092.c)
+add_executable(Cpractice CodeUp/practice/1099.c)
