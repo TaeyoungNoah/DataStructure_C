@@ -72,11 +72,17 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 
 build cmake_object_order_depends_target_Cpractice: phony || CMakeFiles/Cpractice.dir
 
-build CMakeFiles/Cpractice.dir/CodeUp/practice/1099.c.o: C_COMPILER__Cpractice_Debug /Users/taeyoung/Desktop/DataStruecture/Cpractice/CodeUp/practice/1099.c || cmake_object_order_depends_target_Cpractice
-  DEP_FILE = CMakeFiles/Cpractice.dir/CodeUp/practice/1099.c.o.d
+build CMakeFiles/Cpractice.dir/book/chap05/Problem05-1/CLinkedList.c.o: C_COMPILER__Cpractice_Debug /Users/taeyoung/Desktop/DataStruecture/Cpractice/book/chap05/Problem05-1/CLinkedList.c || cmake_object_order_depends_target_Cpractice
+  DEP_FILE = CMakeFiles/Cpractice.dir/book/chap05/Problem05-1/CLinkedList.c.o.d
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -std=gnu99
   OBJECT_DIR = CMakeFiles/Cpractice.dir
-  OBJECT_FILE_DIR = CMakeFiles/Cpractice.dir/CodeUp/practice
+  OBJECT_FILE_DIR = CMakeFiles/Cpractice.dir/book/chap05/Problem05-1
+
+build CMakeFiles/Cpractice.dir/book/chap05/Problem05-1/EmployeeMain.c.o: C_COMPILER__Cpractice_Debug /Users/taeyoung/Desktop/DataStruecture/Cpractice/book/chap05/Problem05-1/EmployeeMain.c || cmake_object_order_depends_target_Cpractice
+  DEP_FILE = CMakeFiles/Cpractice.dir/book/chap05/Problem05-1/EmployeeMain.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -std=gnu99
+  OBJECT_DIR = CMakeFiles/Cpractice.dir
+  OBJECT_FILE_DIR = CMakeFiles/Cpractice.dir/book/chap05/Problem05-1
 
 
 # =============================================================================
@@ -86,7 +92,7 @@ build CMakeFiles/Cpractice.dir/CodeUp/practice/1099.c.o: C_COMPILER__Cpractice_D
 #############################################
 # Link the executable Cpractice
 
-build Cpractice: C_EXECUTABLE_LINKER__Cpractice_Debug CMakeFiles/Cpractice.dir/CodeUp/practice/1099.c.o
+build Cpractice: C_EXECUTABLE_LINKER__Cpractice_Debug CMakeFiles/Cpractice.dir/book/chap05/Problem05-1/CLinkedList.c.o CMakeFiles/Cpractice.dir/book/chap05/Problem05-1/EmployeeMain.c.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk
   OBJECT_DIR = CMakeFiles/Cpractice.dir
   POST_BUILD = :
