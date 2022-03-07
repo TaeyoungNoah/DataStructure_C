@@ -3,4 +3,4 @@ project(Cpractice C)
 
 set(CMAKE_C_STANDARD 99)
 
-add_executable(Cpractice book/chap05/Problem05-2/DBDLinkedList.h book/chap05/Problem05-2/DBDLinkedList.c book/chap05/Problem05-2/DBDLinkedListMain.c)
+add_executable(Cpractice book/chap06/ArrayBaseStack/ArrayBaseStack.h book/chap06/ArrayBaseStack/ArrayBaseStack.c book/chap06/ArrayBaseStack/ArrayBaseStackMain.c)
