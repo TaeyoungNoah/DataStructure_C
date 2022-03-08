@@ -72,23 +72,35 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 
 build cmake_object_order_depends_target_Cpractice: phony || CMakeFiles/Cpractice.dir
 
-build CMakeFiles/Cpractice.dir/book/chap06/Problem06-1/CLinkedList.c.o: C_COMPILER__Cpractice_Debug /Users/taeyoung/Desktop/DataStruecture/Cpractice/book/chap06/Problem06-1/CLinkedList.c || cmake_object_order_depends_target_Cpractice
-  DEP_FILE = CMakeFiles/Cpractice.dir/book/chap06/Problem06-1/CLinkedList.c.o.d
+build CMakeFiles/Cpractice.dir/book/chap06/InfixCalculator/InfixCalculator.c.o: C_COMPILER__Cpractice_Debug /Users/taeyoung/Desktop/DataStruecture/Cpractice/book/chap06/InfixCalculator/InfixCalculator.c || cmake_object_order_depends_target_Cpractice
+  DEP_FILE = CMakeFiles/Cpractice.dir/book/chap06/InfixCalculator/InfixCalculator.c.o.d
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -std=gnu99
   OBJECT_DIR = CMakeFiles/Cpractice.dir
-  OBJECT_FILE_DIR = CMakeFiles/Cpractice.dir/book/chap06/Problem06-1
+  OBJECT_FILE_DIR = CMakeFiles/Cpractice.dir/book/chap06/InfixCalculator
 
-build CMakeFiles/Cpractice.dir/book/chap06/Problem06-1/CLLBaseStack.c.o: C_COMPILER__Cpractice_Debug /Users/taeyoung/Desktop/DataStruecture/Cpractice/book/chap06/Problem06-1/CLLBaseStack.c || cmake_object_order_depends_target_Cpractice
-  DEP_FILE = CMakeFiles/Cpractice.dir/book/chap06/Problem06-1/CLLBaseStack.c.o.d
+build CMakeFiles/Cpractice.dir/book/chap06/InfixCalculator/InfixToPostfix.c.o: C_COMPILER__Cpractice_Debug /Users/taeyoung/Desktop/DataStruecture/Cpractice/book/chap06/InfixCalculator/InfixToPostfix.c || cmake_object_order_depends_target_Cpractice
+  DEP_FILE = CMakeFiles/Cpractice.dir/book/chap06/InfixCalculator/InfixToPostfix.c.o.d
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -std=gnu99
   OBJECT_DIR = CMakeFiles/Cpractice.dir
-  OBJECT_FILE_DIR = CMakeFiles/Cpractice.dir/book/chap06/Problem06-1
+  OBJECT_FILE_DIR = CMakeFiles/Cpractice.dir/book/chap06/InfixCalculator
 
-build CMakeFiles/Cpractice.dir/book/chap06/Problem06-1/CLLBaseStackMain.c.o: C_COMPILER__Cpractice_Debug /Users/taeyoung/Desktop/DataStruecture/Cpractice/book/chap06/Problem06-1/CLLBaseStackMain.c || cmake_object_order_depends_target_Cpractice
-  DEP_FILE = CMakeFiles/Cpractice.dir/book/chap06/Problem06-1/CLLBaseStackMain.c.o.d
+build CMakeFiles/Cpractice.dir/book/chap06/InfixCalculator/PostCalculator.c.o: C_COMPILER__Cpractice_Debug /Users/taeyoung/Desktop/DataStruecture/Cpractice/book/chap06/InfixCalculator/PostCalculator.c || cmake_object_order_depends_target_Cpractice
+  DEP_FILE = CMakeFiles/Cpractice.dir/book/chap06/InfixCalculator/PostCalculator.c.o.d
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -std=gnu99
   OBJECT_DIR = CMakeFiles/Cpractice.dir
-  OBJECT_FILE_DIR = CMakeFiles/Cpractice.dir/book/chap06/Problem06-1
+  OBJECT_FILE_DIR = CMakeFiles/Cpractice.dir/book/chap06/InfixCalculator
+
+build CMakeFiles/Cpractice.dir/book/chap06/InfixCalculator/ListBaseStack.c.o: C_COMPILER__Cpractice_Debug /Users/taeyoung/Desktop/DataStruecture/Cpractice/book/chap06/InfixCalculator/ListBaseStack.c || cmake_object_order_depends_target_Cpractice
+  DEP_FILE = CMakeFiles/Cpractice.dir/book/chap06/InfixCalculator/ListBaseStack.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -std=gnu99
+  OBJECT_DIR = CMakeFiles/Cpractice.dir
+  OBJECT_FILE_DIR = CMakeFiles/Cpractice.dir/book/chap06/InfixCalculator
+
+build CMakeFiles/Cpractice.dir/book/chap06/InfixCalculator/InfixCalculatorMain.c.o: C_COMPILER__Cpractice_Debug /Users/taeyoung/Desktop/DataStruecture/Cpractice/book/chap06/InfixCalculator/InfixCalculatorMain.c || cmake_object_order_depends_target_Cpractice
+  DEP_FILE = CMakeFiles/Cpractice.dir/book/chap06/InfixCalculator/InfixCalculatorMain.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -std=gnu99
+  OBJECT_DIR = CMakeFiles/Cpractice.dir
+  OBJECT_FILE_DIR = CMakeFiles/Cpractice.dir/book/chap06/InfixCalculator
 
 
 # =============================================================================
@@ -98,7 +110,7 @@ build CMakeFiles/Cpractice.dir/book/chap06/Problem06-1/CLLBaseStackMain.c.o: C_C
 #############################################
 # Link the executable Cpractice
 
-build Cpractice: C_EXECUTABLE_LINKER__Cpractice_Debug CMakeFiles/Cpractice.dir/book/chap06/Problem06-1/CLinkedList.c.o CMakeFiles/Cpractice.dir/book/chap06/Problem06-1/CLLBaseStack.c.o CMakeFiles/Cpractice.dir/book/chap06/Problem06-1/CLLBaseStackMain.c.o
+build Cpractice: C_EXECUTABLE_LINKER__Cpractice_Debug CMakeFiles/Cpractice.dir/book/chap06/InfixCalculator/InfixCalculator.c.o CMakeFiles/Cpractice.dir/book/chap06/InfixCalculator/InfixToPostfix.c.o CMakeFiles/Cpractice.dir/book/chap06/InfixCalculator/PostCalculator.c.o CMakeFiles/Cpractice.dir/book/chap06/InfixCalculator/ListBaseStack.c.o CMakeFiles/Cpractice.dir/book/chap06/InfixCalculator/InfixCalculatorMain.c.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk
   OBJECT_DIR = CMakeFiles/Cpractice.dir
   POST_BUILD = :
