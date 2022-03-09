@@ -72,35 +72,17 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 
 build cmake_object_order_depends_target_Cpractice: phony || CMakeFiles/Cpractice.dir
 
-build CMakeFiles/Cpractice.dir/book/chap06/InfixCalculator/InfixCalculator.c.o: C_COMPILER__Cpractice_Debug /Users/taeyoung/Desktop/DataStruecture/Cpractice/book/chap06/InfixCalculator/InfixCalculator.c || cmake_object_order_depends_target_Cpractice
-  DEP_FILE = CMakeFiles/Cpractice.dir/book/chap06/InfixCalculator/InfixCalculator.c.o.d
+build CMakeFiles/Cpractice.dir/Self/chap03/Wallet/ADTWallet.c.o: C_COMPILER__Cpractice_Debug /Users/taeyoung/Desktop/DataStruecture/Cpractice/Self/chap03/Wallet/ADTWallet.c || cmake_object_order_depends_target_Cpractice
+  DEP_FILE = CMakeFiles/Cpractice.dir/Self/chap03/Wallet/ADTWallet.c.o.d
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -std=gnu99
   OBJECT_DIR = CMakeFiles/Cpractice.dir
-  OBJECT_FILE_DIR = CMakeFiles/Cpractice.dir/book/chap06/InfixCalculator
+  OBJECT_FILE_DIR = CMakeFiles/Cpractice.dir/Self/chap03/Wallet
 
-build CMakeFiles/Cpractice.dir/book/chap06/InfixCalculator/InfixToPostfix.c.o: C_COMPILER__Cpractice_Debug /Users/taeyoung/Desktop/DataStruecture/Cpractice/book/chap06/InfixCalculator/InfixToPostfix.c || cmake_object_order_depends_target_Cpractice
-  DEP_FILE = CMakeFiles/Cpractice.dir/book/chap06/InfixCalculator/InfixToPostfix.c.o.d
+build CMakeFiles/Cpractice.dir/Self/chap03/Wallet/ADTWalletMain.c.o: C_COMPILER__Cpractice_Debug /Users/taeyoung/Desktop/DataStruecture/Cpractice/Self/chap03/Wallet/ADTWalletMain.c || cmake_object_order_depends_target_Cpractice
+  DEP_FILE = CMakeFiles/Cpractice.dir/Self/chap03/Wallet/ADTWalletMain.c.o.d
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -std=gnu99
   OBJECT_DIR = CMakeFiles/Cpractice.dir
-  OBJECT_FILE_DIR = CMakeFiles/Cpractice.dir/book/chap06/InfixCalculator
-
-build CMakeFiles/Cpractice.dir/book/chap06/InfixCalculator/PostCalculator.c.o: C_COMPILER__Cpractice_Debug /Users/taeyoung/Desktop/DataStruecture/Cpractice/book/chap06/InfixCalculator/PostCalculator.c || cmake_object_order_depends_target_Cpractice
-  DEP_FILE = CMakeFiles/Cpractice.dir/book/chap06/InfixCalculator/PostCalculator.c.o.d
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -std=gnu99
-  OBJECT_DIR = CMakeFiles/Cpractice.dir
-  OBJECT_FILE_DIR = CMakeFiles/Cpractice.dir/book/chap06/InfixCalculator
-
-build CMakeFiles/Cpractice.dir/book/chap06/InfixCalculator/ListBaseStack.c.o: C_COMPILER__Cpractice_Debug /Users/taeyoung/Desktop/DataStruecture/Cpractice/book/chap06/InfixCalculator/ListBaseStack.c || cmake_object_order_depends_target_Cpractice
-  DEP_FILE = CMakeFiles/Cpractice.dir/book/chap06/InfixCalculator/ListBaseStack.c.o.d
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -std=gnu99
-  OBJECT_DIR = CMakeFiles/Cpractice.dir
-  OBJECT_FILE_DIR = CMakeFiles/Cpractice.dir/book/chap06/InfixCalculator
-
-build CMakeFiles/Cpractice.dir/book/chap06/InfixCalculator/InfixCalculatorMain.c.o: C_COMPILER__Cpractice_Debug /Users/taeyoung/Desktop/DataStruecture/Cpractice/book/chap06/InfixCalculator/InfixCalculatorMain.c || cmake_object_order_depends_target_Cpractice
-  DEP_FILE = CMakeFiles/Cpractice.dir/book/chap06/InfixCalculator/InfixCalculatorMain.c.o.d
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -std=gnu99
-  OBJECT_DIR = CMakeFiles/Cpractice.dir
-  OBJECT_FILE_DIR = CMakeFiles/Cpractice.dir/book/chap06/InfixCalculator
+  OBJECT_FILE_DIR = CMakeFiles/Cpractice.dir/Self/chap03/Wallet
 
 
 # =============================================================================
@@ -110,7 +92,7 @@ build CMakeFiles/Cpractice.dir/book/chap06/InfixCalculator/InfixCalculatorMain.c
 #############################################
 # Link the executable Cpractice
 
-build Cpractice: C_EXECUTABLE_LINKER__Cpractice_Debug CMakeFiles/Cpractice.dir/book/chap06/InfixCalculator/InfixCalculator.c.o CMakeFiles/Cpractice.dir/book/chap06/InfixCalculator/InfixToPostfix.c.o CMakeFiles/Cpractice.dir/book/chap06/InfixCalculator/PostCalculator.c.o CMakeFiles/Cpractice.dir/book/chap06/InfixCalculator/ListBaseStack.c.o CMakeFiles/Cpractice.dir/book/chap06/InfixCalculator/InfixCalculatorMain.c.o
+build Cpractice: C_EXECUTABLE_LINKER__Cpractice_Debug CMakeFiles/Cpractice.dir/Self/chap03/Wallet/ADTWallet.c.o CMakeFiles/Cpractice.dir/Self/chap03/Wallet/ADTWalletMain.c.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk
   OBJECT_DIR = CMakeFiles/Cpractice.dir
   POST_BUILD = :

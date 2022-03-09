@@ -53,10 +53,7 @@
 			"sourceIndexes" : 
 			[
 				1,
-				3,
-				5,
-				7,
-				8
+				2
 			]
 		}
 	],
@@ -89,10 +86,7 @@
 			"name" : "Header Files",
 			"sourceIndexes" : 
 			[
-				0,
-				2,
-				4,
-				6
+				0
 			]
 		},
 		{
@@ -100,10 +94,7 @@
 			"sourceIndexes" : 
 			[
 				1,
-				3,
-				5,
-				7,
-				8
+				2
 			]
 		}
 	],
@@ -111,52 +102,19 @@
 	[
 		{
 			"backtrace" : 1,
-			"path" : "book/chap06/InfixCalculator/InfixCalculator.h",
+			"path" : "Self/chap03/Wallet/ADTWallet.h",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "book/chap06/InfixCalculator/InfixCalculator.c",
-			"sourceGroupIndex" : 1
-		},
-		{
-			"backtrace" : 1,
-			"path" : "book/chap06/InfixCalculator/InfixToPostfix.h",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 1,
-			"compileGroupIndex" : 0,
-			"path" : "book/chap06/InfixCalculator/InfixToPostfix.c",
-			"sourceGroupIndex" : 1
-		},
-		{
-			"backtrace" : 1,
-			"path" : "book/chap06/InfixCalculator/PostCalculator.h",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 1,
-			"compileGroupIndex" : 0,
-			"path" : "book/chap06/InfixCalculator/PostCalculator.c",
-			"sourceGroupIndex" : 1
-		},
-		{
-			"backtrace" : 1,
-			"path" : "book/chap06/InfixCalculator/ListBaseStack.h",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 1,
-			"compileGroupIndex" : 0,
-			"path" : "book/chap06/InfixCalculator/ListBaseStack.c",
+			"path" : "Self/chap03/Wallet/ADTWallet.c",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "book/chap06/InfixCalculator/InfixCalculatorMain.c",
+			"path" : "Self/chap03/Wallet/ADTWalletMain.c",
 			"sourceGroupIndex" : 1
 		}
 	],
