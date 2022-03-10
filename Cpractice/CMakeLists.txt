@@ -4,4 +4,5 @@ project(Cpractice C)
 set(CMAKE_C_STANDARD 99)
 
 add_executable(Cpractice
-        Self/chap03/Wallet/ADTWallet.h Self/chap03/Wallet/ADTWallet.c Self/chap03/Wallet/ADTWalletMain.c)
+        Self/chap03/ArrayListHW/ArrayList.h
+        Self/chap03/ArrayListHW/ArrayList.c Self/chap03/ArrayListHW/ListMain.c)
