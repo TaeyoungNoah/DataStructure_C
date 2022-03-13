@@ -72,17 +72,17 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 
 build cmake_object_order_depends_target_Cpractice: phony || CMakeFiles/Cpractice.dir
 
-build CMakeFiles/Cpractice.dir/book/chap07/CircularQueue/CircularQueue.c.o: C_COMPILER__Cpractice_Debug /Users/taeyoung/Desktop/DataStruecture/Cpractice/book/chap07/CircularQueue/CircularQueue.c || cmake_object_order_depends_target_Cpractice
-  DEP_FILE = CMakeFiles/Cpractice.dir/book/chap07/CircularQueue/CircularQueue.c.o.d
+build CMakeFiles/Cpractice.dir/book/chap07/ListBaseQueue/ListBaseQueue.c.o: C_COMPILER__Cpractice_Debug /Users/taeyoung/Desktop/DataStruecture/Cpractice/book/chap07/ListBaseQueue/ListBaseQueue.c || cmake_object_order_depends_target_Cpractice
+  DEP_FILE = CMakeFiles/Cpractice.dir/book/chap07/ListBaseQueue/ListBaseQueue.c.o.d
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -std=gnu99
   OBJECT_DIR = CMakeFiles/Cpractice.dir
-  OBJECT_FILE_DIR = CMakeFiles/Cpractice.dir/book/chap07/CircularQueue
+  OBJECT_FILE_DIR = CMakeFiles/Cpractice.dir/book/chap07/ListBaseQueue
 
-build CMakeFiles/Cpractice.dir/book/chap07/CircularQueue/CircularQueueMain.c.o: C_COMPILER__Cpractice_Debug /Users/taeyoung/Desktop/DataStruecture/Cpractice/book/chap07/CircularQueue/CircularQueueMain.c || cmake_object_order_depends_target_Cpractice
-  DEP_FILE = CMakeFiles/Cpractice.dir/book/chap07/CircularQueue/CircularQueueMain.c.o.d
+build CMakeFiles/Cpractice.dir/book/chap07/ListBaseQueue/ListBaseQueueMain.c.o: C_COMPILER__Cpractice_Debug /Users/taeyoung/Desktop/DataStruecture/Cpractice/book/chap07/ListBaseQueue/ListBaseQueueMain.c || cmake_object_order_depends_target_Cpractice
+  DEP_FILE = CMakeFiles/Cpractice.dir/book/chap07/ListBaseQueue/ListBaseQueueMain.c.o.d
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -std=gnu99
   OBJECT_DIR = CMakeFiles/Cpractice.dir
-  OBJECT_FILE_DIR = CMakeFiles/Cpractice.dir/book/chap07/CircularQueue
+  OBJECT_FILE_DIR = CMakeFiles/Cpractice.dir/book/chap07/ListBaseQueue
 
 
 # =============================================================================
@@ -92,7 +92,7 @@ build CMakeFiles/Cpractice.dir/book/chap07/CircularQueue/CircularQueueMain.c.o: 
 #############################################
 # Link the executable Cpractice
 
-build Cpractice: C_EXECUTABLE_LINKER__Cpractice_Debug CMakeFiles/Cpractice.dir/book/chap07/CircularQueue/CircularQueue.c.o CMakeFiles/Cpractice.dir/book/chap07/CircularQueue/CircularQueueMain.c.o
+build Cpractice: C_EXECUTABLE_LINKER__Cpractice_Debug CMakeFiles/Cpractice.dir/book/chap07/ListBaseQueue/ListBaseQueue.c.o CMakeFiles/Cpractice.dir/book/chap07/ListBaseQueue/ListBaseQueueMain.c.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk
   OBJECT_DIR = CMakeFiles/Cpractice.dir
   POST_BUILD = :
