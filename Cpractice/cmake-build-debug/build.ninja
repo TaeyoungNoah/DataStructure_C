@@ -72,23 +72,17 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 
 build cmake_object_order_depends_target_Cpractice: phony || CMakeFiles/Cpractice.dir
 
-build CMakeFiles/Cpractice.dir/book/chap07/Problem07-1/Deque.c.o: C_COMPILER__Cpractice_Debug /Users/taeyoung/Desktop/DataStruecture/Cpractice/book/chap07/Problem07-1/Deque.c || cmake_object_order_depends_target_Cpractice
-  DEP_FILE = CMakeFiles/Cpractice.dir/book/chap07/Problem07-1/Deque.c.o.d
+build CMakeFiles/Cpractice.dir/Self/chap03/ArrayListHW_char/ArrayList.c.o: C_COMPILER__Cpractice_Debug /Users/taeyoung/Desktop/DataStruecture/Cpractice/Self/chap03/ArrayListHW_char/ArrayList.c || cmake_object_order_depends_target_Cpractice
+  DEP_FILE = CMakeFiles/Cpractice.dir/Self/chap03/ArrayListHW_char/ArrayList.c.o.d
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -std=gnu99
   OBJECT_DIR = CMakeFiles/Cpractice.dir
-  OBJECT_FILE_DIR = CMakeFiles/Cpractice.dir/book/chap07/Problem07-1
+  OBJECT_FILE_DIR = CMakeFiles/Cpractice.dir/Self/chap03/ArrayListHW_char
 
-build CMakeFiles/Cpractice.dir/book/chap07/Problem07-1/DequeBaseQueue.c.o: C_COMPILER__Cpractice_Debug /Users/taeyoung/Desktop/DataStruecture/Cpractice/book/chap07/Problem07-1/DequeBaseQueue.c || cmake_object_order_depends_target_Cpractice
-  DEP_FILE = CMakeFiles/Cpractice.dir/book/chap07/Problem07-1/DequeBaseQueue.c.o.d
+build CMakeFiles/Cpractice.dir/Self/chap03/ArrayListHW_char/ListMain.c.o: C_COMPILER__Cpractice_Debug /Users/taeyoung/Desktop/DataStruecture/Cpractice/Self/chap03/ArrayListHW_char/ListMain.c || cmake_object_order_depends_target_Cpractice
+  DEP_FILE = CMakeFiles/Cpractice.dir/Self/chap03/ArrayListHW_char/ListMain.c.o.d
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -std=gnu99
   OBJECT_DIR = CMakeFiles/Cpractice.dir
-  OBJECT_FILE_DIR = CMakeFiles/Cpractice.dir/book/chap07/Problem07-1
-
-build CMakeFiles/Cpractice.dir/book/chap07/Problem07-1/DQBQueueMain.c.o: C_COMPILER__Cpractice_Debug /Users/taeyoung/Desktop/DataStruecture/Cpractice/book/chap07/Problem07-1/DQBQueueMain.c || cmake_object_order_depends_target_Cpractice
-  DEP_FILE = CMakeFiles/Cpractice.dir/book/chap07/Problem07-1/DQBQueueMain.c.o.d
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -std=gnu99
-  OBJECT_DIR = CMakeFiles/Cpractice.dir
-  OBJECT_FILE_DIR = CMakeFiles/Cpractice.dir/book/chap07/Problem07-1
+  OBJECT_FILE_DIR = CMakeFiles/Cpractice.dir/Self/chap03/ArrayListHW_char
 
 
 # =============================================================================
@@ -98,7 +92,7 @@ build CMakeFiles/Cpractice.dir/book/chap07/Problem07-1/DQBQueueMain.c.o: C_COMPI
 #############################################
 # Link the executable Cpractice
 
-build Cpractice: C_EXECUTABLE_LINKER__Cpractice_Debug CMakeFiles/Cpractice.dir/book/chap07/Problem07-1/Deque.c.o CMakeFiles/Cpractice.dir/book/chap07/Problem07-1/DequeBaseQueue.c.o CMakeFiles/Cpractice.dir/book/chap07/Problem07-1/DQBQueueMain.c.o
+build Cpractice: C_EXECUTABLE_LINKER__Cpractice_Debug CMakeFiles/Cpractice.dir/Self/chap03/ArrayListHW_char/ArrayList.c.o CMakeFiles/Cpractice.dir/Self/chap03/ArrayListHW_char/ListMain.c.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk
   OBJECT_DIR = CMakeFiles/Cpractice.dir
   POST_BUILD = :
