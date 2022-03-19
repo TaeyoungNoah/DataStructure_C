@@ -21,7 +21,7 @@ int main(void) {
     LInsert(&list, 'h');
 
     //저장된 데이터의 전체 출력
-    printf("=== 삭제 전 데이터 ===");
+    printf("=== 삭제 전 데이터 ===\n");
     printf("현재 데이터의 수 : %d\n", LCount(&list));
     if(LFirst(&list, &data)) {
         printf("%c ", data);
@@ -32,7 +32,7 @@ int main(void) {
     }
     printf("\n\n");
 
-    //char 'B'를 탐색하여 모두 삭제
+    // 'B'를 탐색하여 모두 삭제
     if(LFirst(&list, &data)) {
         if(data == 'B')
             LRemove(&list);
@@ -43,8 +43,8 @@ int main(void) {
         }
     }
 
-    //삭제 후 남은 데이터 전체 출력
-    printf("=== 'B' 삭제 후 남은 데이터 출력 ===");
+    // 삭제 후 남은 데이터 전체 출력
+    printf("=== 'B' 삭제 후 남은 데이터 출력 ===\n");
     printf("현재 데이터의 수 : %d\n", LCount(&list));
     if(LFirst(&list, &data)) {
         printf("%c ", data);
@@ -55,7 +55,7 @@ int main(void) {
     }
     printf("\n\n");
 
-    //char 'e'를 탐색하여 모두 삭제
+    // 'e'를 탐색하여 모두 삭제
     if(LFirst(&list, &data)) {
         if(data == 'e')
             LRemove(&list);
@@ -66,8 +66,8 @@ int main(void) {
         }
     }
 
-    //삭제 후 남은 데이터 전체 출력
-    printf("=== 'E' 삭제 후 남은 데이터 출력 ===");
+    // 삭제 후 남은 데이터 전체 출력
+    printf("=== 'e' 삭제 후 남은 데이터 출력 ===\n");
     printf("현재 데이터의 수 : %d\n", LCount(&list));
     if(LFirst(&list, &data)) {
         printf("%c ", data);
