@@ -16,11 +16,17 @@ add_executable(Cpractice
 #        book/chap08/Problem08-1/BinaryTree2.c
 #        book/chap08/Problem08-1/BinaryTree2Main.c
 
-        book/chap08/ExpressionTree/ListBaseStack.h
-        book/chap08/ExpressionTree/ListBaseStack.c
-        book/chap08/ExpressionTree/BinaryTree2.h
-        book/chap08/ExpressionTree/BinaryTree2.c
-        book/chap08/ExpressionTree/ExpressionTree.h
-        book/chap08/ExpressionTree/ExpressionTree.c
-        book/chap08/ExpressionTree/ExpressionMain.c
+#        book/chap08/ExpressionTree/ListBaseStack.h
+#        book/chap08/ExpressionTree/ListBaseStack.c
+#        book/chap08/ExpressionTree/BinaryTree2.h
+#        book/chap08/ExpressionTree/BinaryTree2.c
+#        book/chap08/ExpressionTree/ExpressionTree.h
+#        book/chap08/ExpressionTree/ExpressionTree.c
+#        book/chap08/ExpressionTree/ExpressionMain.c
+
+        Self/chap03/HW03/ArrayList.h
+        Self/chap03/HW03/ArrayList.c
+        Self/chap03/HW03/NameCard.h
+        Self/chap03/HW03/NameCard.c
+        Self/chap03/HW03/NameCardMain.c
         )
