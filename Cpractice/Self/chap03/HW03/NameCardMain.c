@@ -8,7 +8,7 @@ int main() {
     NameCard *nameCard;
     List list;
     ListInit(&list);
-    int flag = 0;
+    int flag = 0; // 입력을 계속 받을지 말지를 판단하기 위한 변수 선언
     char name[30];
     char phone[30];
 
@@ -35,11 +35,11 @@ int main() {
     printf("탐색할 대상의 이름을 입력해주세요 : ");
     scanf("%s", name);
     if (LFirst(&list, &nameCard)) {
-        if (!NameCompare(nameCard, name))
+        if (!NameCompare(nameCard, name)) // NameCompare : 두 인자의 값이 같으면 0을 리턴함을 이용
             ShowNameCardInfo(nameCard);
 
         while (LNext(&list, &nameCard)) {
-            if (!NameCompare(nameCard, name))
+            if (!NameCompare(nameCard, name)) // NameCompare : 두 인자의 값이 같으면 0을 리턴함을 이용
                 ShowNameCardInfo(nameCard);
         }
     }
@@ -56,22 +56,22 @@ int main() {
         if (!NameCompare(nameCard, name)) {
             printf("--변경 완료--\n");
             printf("변경 전 : ");
-            ShowNameCardInfo(nameCard);
+            ShowNameCardInfo(nameCard); // 변경 전 정보 출력
 
-            ChangePhoneNum(nameCard, phone);
+            ChangePhoneNum(nameCard, phone); // 변경
             printf("변경 후 : ");
-            ShowNameCardInfo(nameCard);
+            ShowNameCardInfo(nameCard); // 변경 후 정보 출력
         }
 
         while (LNext(&list, &nameCard)) {
             if (!NameCompare(nameCard, name)) {
                 printf("--변경 완료--\n");
                 printf("변경 전 : ");
-                ShowNameCardInfo(nameCard);
+                ShowNameCardInfo(nameCard); // 변경 전 정보 출력
 
-                ChangePhoneNum(nameCard, phone);
+                ChangePhoneNum(nameCard, phone); // 변경
                 printf("변경 후 : ");
-                ShowNameCardInfo(nameCard);
+                ShowNameCardInfo(nameCard); // 변경 후 정보 출력
             }
         }
     }
@@ -83,21 +83,21 @@ int main() {
     scanf("%s", name);
     if (LFirst(&list, &nameCard)) {
         if (!NameCompare(nameCard, name)) {
-            nameCard = LRemove(&list);
-            printf("--삭제완료--");
-            free(nameCard);
+            nameCard = LRemove(&list); // 삭제
+            printf("--삭제완료--\n");
+            free(nameCard); // 메모리 해제
         }
         while (LNext(&list, &nameCard)) {
             if (!NameCompare(nameCard, name)) {
-                nameCard = LRemove(&list);
+                nameCard = LRemove(&list); // 삭제
                 printf("--삭제완료--\n");
-                free(nameCard);
+                free(nameCard); // 메모리 해제
             }
         }
     }
 
     // 5. 남아있는 전체 정보 출력
-    printf("============5번=============\n");
+    printf("\n============5번=============\n");
     if (LFirst(&list, &nameCard)) {
         ShowNameCardInfo(nameCard);
         while (LNext(&list, &nameCard)) {

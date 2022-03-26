@@ -17,9 +17,9 @@ void ShowNameCardInfo(NameCard *pcard) {
 }
 
 int NameCompare(NameCard *pcard, char *name) {
-    return strcmp(pcard->name, name);
+    return strcmp(pcard->name, name); // pcard->name = name
 }
 
 void ChangePhoneNum(NameCard *pcard, char *phone) {
-    stpcpy(pcard->phone, phone);
+    stpcpy(pcard->phone, phone); // 두 문자열이 같으면 0 반환
 }
