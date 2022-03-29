@@ -30,11 +30,13 @@ add_executable(Cpractice
 #        Self/chap03/HW03/NameCard.c
 #        Self/chap03/HW03/NameCardMain.c
 
-        book/chap08/Problem08-2/ListBaseStack.h
-        book/chap08/Problem08-2/ListBaseStack.c
-        book/chap08/Problem08-2/BinaryTree2.h
-        book/chap08/Problem08-2/BinaryTree2.c
-        book/chap08/Problem08-2/ExpressionTree.h
-        book/chap08/Problem08-2/ExpressionTree.c
-        book/chap08/Problem08-2/ExpressionMain.c
-        )
+#        book/chap08/Problem08-2/ListBaseStack.h
+#        book/chap08/Problem08-2/ListBaseStack.c
+#        book/chap08/Problem08-2/BinaryTree2.h
+#        book/chap08/Problem08-2/BinaryTree2.c
+#        book/chap08/Problem08-2/ExpressionTree.h
+#        book/chap08/Problem08-2/ExpressionTree.c
+#        book/chap08/Problem08-2/ExpressionMain.c
+
+#        BOJ/Stack/10773.c
+        BOJ/Stack/1925.c)
