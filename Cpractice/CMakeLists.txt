@@ -39,4 +39,5 @@ add_executable(Cpractice
 #        book/chap08/Problem08-2/ExpressionMain.c
 
 #        BOJ/Stack/10773.c
-        BOJ/Stack/1925.c)
+#        BOJ/Stack/1935.c
+        BOJ/Stack/4949.c)
