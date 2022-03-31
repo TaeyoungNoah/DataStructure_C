@@ -24,11 +24,11 @@ add_executable(Cpractice
 #        book/chap08/ExpressionTree/ExpressionTree.c
 #        book/chap08/ExpressionTree/ExpressionMain.c
 
-#        Self/chap03/HW03/ArrayList.h
-#        Self/chap03/HW03/ArrayList.c
-#        Self/chap03/HW03/NameCard.h
-#        Self/chap03/HW03/NameCard.c
-#        Self/chap03/HW03/NameCardMain.c
+        Self/chap03/HW04/DLinkedList.h
+        Self/chap03/HW04/DLinkedList.c
+        Self/chap03/HW04/NameCard.h
+        Self/chap03/HW04/NameCard.c
+        Self/chap03/HW04/NameCardMain.c
 
 #        book/chap08/Problem08-2/ListBaseStack.h
 #        book/chap08/Problem08-2/ListBaseStack.c
@@ -40,4 +40,5 @@ add_executable(Cpractice
 
 #        BOJ/Stack/10773.c
 #        BOJ/Stack/1935.c
-        BOJ/Stack/4949.c)
+#        BOJ/Stack/4949.c
+        )
