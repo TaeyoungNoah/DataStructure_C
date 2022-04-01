@@ -1,13 +1,22 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
 #include "NameCard.h"
 #include "DLinkedList.h"
+
+int WhoIsPrecede(NameCard data1, NameCard data2) {
+    if (strcmp(data1.name, data2.name)<0) // strcmp : data1.name < data2.name 이면 음수를 반환함
+        return 0;
+    else
+        return 1;
+}
 
 int main() {
     // 필요한 변수 선언 및 List 초기화
     NameCard *nameCard;
     List list;
     ListInit(&list);
+    SetSortRule(&list, WhoIsPrecede); // 정렬 기준 설정
     int flag = 0; // 입력을 계속 받을지 말지를 판단하기 위한 변수 선언
     char name[30];
     char phone[30];
