@@ -61,7 +61,7 @@ int LNext(List *plist, LData *pdata) {
     return TRUE;
 }
 
-LData LRemove(List *plist) {
+LData ㄷLRemove(List *plist) {
     Node *rpos = plist->cur;
     LData rdata = plist->cur->data;
 
