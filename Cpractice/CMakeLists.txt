@@ -42,4 +42,5 @@ add_executable(Cpractice
 #        BOJ/Stack/1935.c
 #        BOJ/Stack/4949.c
 #        BOJ/Stack/1874.c
-        BOJ/Stack/1918.c)
+#        BOJ/Stack/1918.c
+        BOJ/Stack/17413.c)
