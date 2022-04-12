@@ -7,8 +7,8 @@
 
 NameCard *MakeNameCard(char *name, char *phone) {
     NameCard *pNamecard = (NameCard *) malloc(sizeof(NameCard));
-    stpcpy(pNamecard->name, name);
-    stpcpy(pNamecard->phone, phone);
+    strcpy(pNamecard->name, name);
+    strcpy(pNamecard->phone, phone);
     return pNamecard;
 }
 
@@ -21,5 +21,5 @@ int NameCompare(NameCard *pcard, char *name) {
 }
 
 void ChangePhoneNum(NameCard *pcard, char *phone) {
-    stpcpy(pcard->phone, phone); // 두 문자열이 같으면 0 반환
+    strcpy(pcard->phone, phone); // 두 문자열이 같으면 0 반환
 }
