@@ -4,8 +4,8 @@ project(PracticeSelf C)
 set(CMAKE_C_STANDARD 99)
 
 add_executable(PracticeSelf
-#        main.c
-        # ======================== chap03 ==========================
+
+        # ================================================ chap03 ==================================================
         # ArrayList
 #        chapter03/ArrayList/ArrayList.c
 #        chapter03/ArrayList/ArrayList.h
@@ -27,7 +27,7 @@ add_executable(PracticeSelf
 #        chapter03/ArrayList_NameCard/NameCard.c
 
 
-        # ======================== chap04 ==========================
+        # ================================================ chap04 ==================================================
         # 더미 연결 리스트
 #        chapter04/DLinkedList/DLinkedList.h
 #        chapter04/DLinkedList/DLinkedList.c
@@ -61,7 +61,7 @@ add_executable(PracticeSelf
 #        chapter04/Problem04-4/Point.h
 #        chapter04/Problem04-4/Point.c
 #        chapter04/Problem04-4/PointListMain.c
-        # ======================== chap05 ==========================
+        # ================================================ chap05 ==================================================
 
         # 원형연결리스트
 #        chapter05/CLinkedList/CLinkedList.c
@@ -90,7 +90,7 @@ add_executable(PracticeSelf
 #        chapter05/Problem05-2/DBDLinkedList.c
 #        chapter05/Problem05-2/DBDLinkedListMain.c
 
-        # ======================== chap06 ========================
+        # ================================================ chap06 ================================================
         # 배열 기반 스택
 #        chapter06/ArrayBaseStack/ArrayBaseStack.h
 #        chapter06/ArrayBaseStack/ArrayBaseStack.c
@@ -140,20 +140,20 @@ add_executable(PracticeSelf
 #        chapter06/InfixToPostfix/InfixCalculator.c
 #        chapter06/InfixToPostfix/InfixCalculatorMain.c
 
-        # ======================== SelfMade ========================
+        # ================================================ SelfMade ================================================
         # 원형양방향 연결 리스트
 #        SelfMade/DBCLinkedList/DBCLinkedList.h
 #        SelfMade/DBCLinkedList/DBCLinkedList.c
 #        SelfMade/DBCLinkedList/DBCLinkedListMain.c
 
         # 양방향 연결 리스트 정렬
-#        SelfMade/DBLinkedListSort/DBLinkedList.h
-#        SelfMade/DBLinkedListSort/DBLinkedList.c
+#        SelfMade/DBLinkedListSort/DBDLinkedList.h
+#        SelfMade/DBLinkedListSort/DBDLinkedList.c
 #        SelfMade/DBLinkedListSort/DBLinkedListSort.c
 
         # 양방향 연결리스트 과제 변형
-#        SelfMade/DBLinkedListSortNameCard/DBLinkedList.h
-#        SelfMade/DBLinkedListSortNameCard/DBLinkedList.c
+#        SelfMade/DBLinkedListSortNameCard/DBDLinkedList.h
+#        SelfMade/DBLinkedListSortNameCard/DBDLinkedList.c
 #        SelfMade/DBLinkedListSortNameCard/NameCard.h
 #        SelfMade/DBLinkedListSortNameCard/NameCard.c
 #        SelfMade/DBLinkedListSortNameCard/DBNameCardSortMain.c
@@ -177,9 +177,16 @@ add_executable(PracticeSelf
 #        SelfMade/CharFlip/ListBaseStack.c
 #        SelfMade/CharFlip/CharFlipMain.c
 
+        # 후위표기식 문제랑 교제랑 결합
+#        SelfMade/InfixCalcutaor_boj/InfixToPostfix.h
+#        SelfMade/InfixCalcutaor_boj/InfixToPostfix.c
+#        SelfMade/InfixCalcutaor_boj/ListBaseStack.h
+#        SelfMade/InfixCalcutaor_boj/ListBaseStack.c
+#        SelfMade/InfixCalcutaor_boj/InFixCalculator_bojMain.c
 
 
-        # ======================== BOJ ========================
+
+        # ================================================ BOJ ================================================
         # 1158 요세푸스
 #        BOJ/1158/CLinkedList.h
 #        BOJ/1158/CLinkedList.c
@@ -204,7 +211,7 @@ add_executable(PracticeSelf
 #        BOJ/1874/1874_package.c
 #        BOJ/1874/1874.c
 
-        # 2940 : 돌려돌려 돌림판 원형 양방향 리스트는 썼는데 반례 구현 못함
+        # 2840 : 돌려돌려 돌림판 원형 양방향 리스트
 #        BOJ/2840/DBCLinkedList.h
 #        BOJ/2840/DBCLinkedList.c
 #        BOJ/2840/2840_package.c
@@ -231,7 +238,7 @@ add_executable(PracticeSelf
 #        BOJ/17298/ListBaseStack.h
 #        BOJ/17298/ListBaseStack.c
 #        BOJ/17298/17298_package.c
-        BOJ/17298/17298.c
+#        BOJ/17298/17298.c
 
         # 10799 : 괄호 레이저
 #        BOJ/10799/ListBaseStack.h
@@ -285,14 +292,26 @@ add_executable(PracticeSelf
 #        BOJ/2605/2605_package.c
 #        BOJ/2605/2605.c
 
+        # 2562 : 최대값찾기
+#        BOJ/2562/DLinkedList.h
+#        BOJ/2562/DLinkedList.c
+#        BOJ/2562/2562_package.c
+#        BOJ/2562/2562.c
 
-        # ======================== HW ========================
+
+
+        # ================================================ HW ================================================
         # HW2
 #        HW/HW2/ArrayList.h
 #        HW/HW2/ArrayList.c
 #        HW/HW2/ListMainChar.c
 
         # HW3
+#        HW/HW3/ArrayList.h
+#        HW/HW3/ArrayList.c
+#        HW/HW3/NameCard.h
+#        HW/HW3/NameCard.c
+#        HW/HW3/NameCardMain.c
 
         # HW4
 #        HW/HW4/DLinkedList.c
@@ -312,5 +331,20 @@ add_executable(PracticeSelf
 #        HW/HW5/CLinkedList.h
 #        HW/HW5/CLinkedList.c
 #        HW/HW5/HW5_package.c
+
+
+        # ================================================ TEST ================================================
+#        SelfMade/TEST/ListBaseStack.h
+#        SelfMade/TEST/ListBaseStack.c
+#        SelfMade/TEST/TestMain.c
+#        SelfMade/TEST/TestBoj.c
+        # ================================================ EXAM ================================================
+
+
+
+
+
+        main.c
+
         )
 

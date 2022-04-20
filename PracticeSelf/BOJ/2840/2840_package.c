@@ -10,13 +10,18 @@ void MakeList(List *plist, int N) {
 
 int main() {
     List list;
-    int N, K, spin, flag;
+    int N, K, spin, flag, charCur;
+    char charList[25];
+
     char data, input;
     ListInit(&list);
 
     flag=TRUE;
     scanf("%d %d", &N, &K);
     MakeList(&list,N);
+
+
+
     LFirst(&list, &data); // cur ÃÊ±âÈ­
 
     for (int i=0; i<K; i++) {
@@ -32,6 +37,26 @@ int main() {
 
 
     }
+
+    charCur = 0;
+    if (flag==1) {
+        for(int i = 0; i < LCount(&list); i++) {
+            if (LPrev(&list, &data)) {
+                if (data!='?') {
+                    for (int j = 0; j < charCur; j++) {
+                        if (charList[j] == data)
+                            flag = 0;
+                    }
+                    charList[charCur] = data;
+                    charCur++;
+                }
+
+            }
+        }
+    }
+
+
+
 
     if (flag==1) {
         LNext(&list, &data);

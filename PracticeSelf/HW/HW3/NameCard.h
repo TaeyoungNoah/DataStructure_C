@@ -1,4 +1,3 @@
-#define _CRT_SECURE_NO_WARNINGS
 #ifndef __NAME_CARD__
 #define __NAME_CARD__
 

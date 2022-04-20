@@ -19,6 +19,9 @@ void LInsertFront(List *plist, Data data) {
     }
     else {
         newNode->next = plist->tail->next;
+        newNode->prev = plist->tail;
+
+        plist->tail->next->prev = newNode;
         plist->tail->next = newNode;
     }
 

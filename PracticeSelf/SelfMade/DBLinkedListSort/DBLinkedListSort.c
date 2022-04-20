@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "DBLinkedList.h"
+#include "DBDLinkedList.h"
 
 int WhoIsPrecede(int d1, int d2) {
     if(d1 < d2)
@@ -28,7 +28,7 @@ int main(void) {
             printf("%d ", data);
         }
 
-        while(LPrevious(&list, &data)) {
+        while(LPrev(&list, &data)) {
             printf("%d ", data);
         }
 

@@ -1,22 +1,15 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
+#include <stdlib.h>
 #include <string.h>
-
-#include "DBDLinkedList.h"
 #include "NameCard.h"
+#include "ArrayList.h"
 
-int WhoIsPrecede(NameCard data1, NameCard data2) {
-    if (strcmp(data1.name, data2.name)<0) // strcmp : data1.name < data2.name 이면 음수를 반환함
-        return 0;
-    else
-        return 1;
-}
 
 int main() {
     NameCard *nameCard;
     List list;
     ListInit(&list);
-    SetSortRule(&list, WhoIsPrecede);
     int order;
     char name[30];
     char phone[30];
@@ -98,11 +91,13 @@ int main() {
                     if (!NameCompare(nameCard, name)) {
                         nameCard = LRemove(&list);
                         printf("--삭제완료--\n");
+                        free(nameCard);
                     }
                     while (LNext(&list, &nameCard)) {
                         if (!NameCompare(nameCard, name)) {
                             nameCard = LRemove(&list);
                             printf("--삭제완료--\n");
+                            free(nameCard);
                         }
                     }
                 }
@@ -118,8 +113,6 @@ int main() {
                 }
                 printf("\n");
                 break;
-            default:
-                printf("***메뉴에 없는 기능입니다***\n");
         }
     }
     return 0;
