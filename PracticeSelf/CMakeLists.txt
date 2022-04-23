@@ -340,11 +340,18 @@ add_executable(PracticeSelf
 #        SelfMade/TEST/TestBoj.c
         # ================================================ EXAM ================================================
 
+#        EXAM/No1/DLinkedList.h
+#        EXAM/No1/DLinkedList.c
+#        EXAM/No1/Exp.h
+#        EXAM/No1/Exp.c
+#        EXAM/No1/No01Main.c
 
+        EXAM/No2/ListBaseStack.h
+        EXAM/No2/ListBaseStack.c
+        EXAM/No2/InfixToPostfix.h
+        EXAM/No2/InfixToPostfix.c
+        EXAM/No2/No02Main.c
 
-
-
-        main.c
-
+#        main.c
         )
 
