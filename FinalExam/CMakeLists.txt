@@ -24,7 +24,13 @@ add_executable(FinalExam
 #        chap07/HamburgerSim/HamburgerSimMain.c
 
         # µ¦
-        chap07/Deque/Deque.h
-        chap07/Deque/Deque.c
-        chap07/Deque/DequeMain.c
-        )
+#        chap07/Deque/Deque.h
+#        chap07/Deque/Deque.c
+#        chap07/Deque/DequeMain.c
+
+        # Problem07-1 : µ¦À¸·Î Å¥ ¸¸µé±â
+        chap07/Problem07-1/Deque.h
+        chap07/Problem07-1/Deque.c
+        chap07/Problem07-1/DequeBaseQueue.h
+        chap07/Problem07-1/DequeBaseQueue.c
+        chap07/Problem07-1/DQBQueueMain.c)

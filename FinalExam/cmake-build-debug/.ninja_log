@@ -1,13 +1,10 @@
 # ninja log v5
-1	177	1651230144513316845	CMakeFiles/FinalExam.dir/chap07/ListBaseQueue/ListBaseQueueMain.c.o	7cf3c2b3aa07797c
-1	222	1651228917783375679	CMakeFiles/FinalExam.dir/main.c.o	33628c73c8e37687
-0	177	1651230144513739649	CMakeFiles/FinalExam.dir/chap07/ListBaseQueue/ListBaseQueue.c.o	5b5b9aae83605e22
-1	156	1651245233175902439	CMakeFiles/FinalExam.dir/chap07/HamburgerSim/HamburgerSimMain.c.o	906d66c665336e45
-1	222	1651228917784098362	CMakeFiles/FinalExam.dir/CircularQueue/CircularQueue.c.o	71e0b598acb16dce
-0	39	1651245722413588572	build.ninja	73b57e11aa791f41
-156	199	1651245233221510341	FinalExam	8e977634c5c156d9
-2	223	1651228917783379429	CMakeFiles/FinalExam.dir/CircularQueue/CircularQueueMain.c.o	506b3e3113a3e78a
-0	155	1651245233175956477	CMakeFiles/FinalExam.dir/chap07/HamburgerSim/CircularQueue.c.o	e8aa9ae176c5a244
-0	73	1651245723920499116	CMakeFiles/FinalExam.dir/chap07/Deque/DequeMain.c.o	b44360aa6872f8da
-0	74	1651245723921018505	CMakeFiles/FinalExam.dir/chap07/Deque/Deque.c.o	4f919e4f68cd66ee
-74	117	1651245723965079491	FinalExam	59a9cb48628beaa2
+0	35	1652064648794658428	CMakeFiles/FinalExam.dir/main.c.o	4928bcc3bec1231e
+0	39	1652064939636362850	build.ninja	73b57e11aa791f41
+71	115	1652064664465374428	FinalExam	6456ed19619b5c1c
+0	70	1652064664419909834	CMakeFiles/FinalExam.dir/chap07/Deque/Deque.c.o	b301226f5abb6bc6
+0	71	1652064664418422211	CMakeFiles/FinalExam.dir/chap07/Deque/DequeMain.c.o	a76dab721c8535d5
+0	153	1652065443395175099	CMakeFiles/FinalExam.dir/chap07/Problem07-1/Deque.c.o	be58dc5399694f74
+1	153	1652065443395021399	CMakeFiles/FinalExam.dir/chap07/Problem07-1/DQBQueueMain.c.o	63e619f365016f47
+1	154	1652065443395023941	CMakeFiles/FinalExam.dir/chap07/Problem07-1/DequeBaseQueue.c.o	6c8d751cd2d93f1
+154	197	1652065443441402908	FinalExam	11904826c20c1159
