@@ -57,23 +57,30 @@ add_executable(FinalExam
 #        chap08/ExpressionTree/ListBaseStack.c
 
         # Problem08-2 : 수식 트리 괄호 넣기
-        chap08/Problem08-2/BinaryTree2.h
-        chap08/Problem08-2/BinaryTree2.c
-        chap08/Problem08-2/ExpressionTree.h
-        chap08/Problem08-2/ExpressionTree.c
-        chap08/Problem08-2/ExpressionTreeMain.c
-        chap08/Problem08-2/ListBaseStack.h
-        chap08/Problem08-2/ListBaseStack.c
+#        chap08/Problem08-2/BinaryTree2.h
+#        chap08/Problem08-2/BinaryTree2.c
+#        chap08/Problem08-2/ExpressionTree.h
+#        chap08/Problem08-2/ExpressionTree.c
+#        chap08/Problem08-2/ExpressionTreeMain.c
+#        chap08/Problem08-2/ListBaseStack.h
+#        chap08/Problem08-2/ListBaseStack.c
 
 
 
 
         # ========================================== BOJ ================================================
+        # -------------------chap07-------------------
         # 1966 프린터 큐 : 중요도를 판단해서 출력
 #        BOJ/Queue/1966/ListBaseQueue.h
 #        BOJ/Queue/1966/ListBaseQueue.c
 #        BOJ/Queue/1966/1966_package.c
 
 
+        # -------------------chap08-------------------
+        # 1991 : 트리 순회 (트리 만들기부터)
+#        BOJ/chap08/1991/BinaryTree2.h
+#        BOJ/chap08/1991/BinaryTree2.c
+#        BOJ/chap08/1991/1991_package.c
+        BOJ/chap08/1991/1991.c
 
         )
