@@ -72,11 +72,11 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 
 build cmake_object_order_depends_target_FinalExam: phony || CMakeFiles/FinalExam.dir
 
-build CMakeFiles/FinalExam.dir/BOJ/chap08/1991/1991.c.o: C_COMPILER__FinalExam_Debug /Users/taeyoung/Desktop/DataStruecture/FinalExam/BOJ/chap08/1991/1991.c || cmake_object_order_depends_target_FinalExam
-  DEP_FILE = CMakeFiles/FinalExam.dir/BOJ/chap08/1991/1991.c.o.d
+build CMakeFiles/FinalExam.dir/BOJ/chap08/2263/2263.c.o: C_COMPILER__FinalExam_Debug /Users/taeyoung/Desktop/DataStruecture/FinalExam/BOJ/chap08/2263/2263.c || cmake_object_order_depends_target_FinalExam
+  DEP_FILE = CMakeFiles/FinalExam.dir/BOJ/chap08/2263/2263.c.o.d
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu99
   OBJECT_DIR = CMakeFiles/FinalExam.dir
-  OBJECT_FILE_DIR = CMakeFiles/FinalExam.dir/BOJ/chap08/1991
+  OBJECT_FILE_DIR = CMakeFiles/FinalExam.dir/BOJ/chap08/2263
 
 
 # =============================================================================
@@ -86,7 +86,7 @@ build CMakeFiles/FinalExam.dir/BOJ/chap08/1991/1991.c.o: C_COMPILER__FinalExam_D
 #############################################
 # Link the executable FinalExam
 
-build FinalExam: C_EXECUTABLE_LINKER__FinalExam_Debug CMakeFiles/FinalExam.dir/BOJ/chap08/1991/1991.c.o
+build FinalExam: C_EXECUTABLE_LINKER__FinalExam_Debug CMakeFiles/FinalExam.dir/BOJ/chap08/2263/2263.c.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
   OBJECT_DIR = CMakeFiles/FinalExam.dir
   POST_BUILD = :
