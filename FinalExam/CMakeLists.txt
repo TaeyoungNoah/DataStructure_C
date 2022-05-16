@@ -66,15 +66,28 @@ add_executable(FinalExam
 #        chap08/Problem08-2/ListBaseStack.c
 
 
+        # ========================================== CHAP 08 ================================================
+        # 간단한 Heap
+#        chap09/SimpleHeap/SimpleHeap.h
+#        chap09/SimpleHeap/SimpleHeap.c
+#        chap09/SimpleHeap/SimpleHeapMain.c
+
+        # 유용한 Heap
+#        chap09/UsefulHeap/UsefulHeap.h
+#        chap09/UsefulHeap/UsefulHeap.c
+#        chap09/UsefulHeap/UsefulHeapMain.c
+
+        # 우선순위 큐
+#        chap09/PriorityQueue/UsefulHeap.h
+#        chap09/PriorityQueue/UsefulHeap.c
+#        chap09/PriorityQueue/PriorityQueue.h
+#        chap09/PriorityQueue/PriorityQueue.c
+#        chap09/PriorityQueue/PriorityQueueMain.c
+
+
 
 
         # ========================================== BOJ ================================================
-        # -------------------chap07-------------------
-        # 1966 프린터 큐 : 중요도를 판단해서 출력
-#        BOJ/Queue/1966/ListBaseQueue.h
-#        BOJ/Queue/1966/ListBaseQueue.c
-#        BOJ/Queue/1966/1966_package.c
-
 
         # -------------------chap08-------------------
         # 1991 : 트리 순회 (트리 만들기부터)
@@ -83,4 +96,16 @@ add_executable(FinalExam
 #        BOJ/chap08/1991/1991_package.c
 #        BOJ/chap08/1991/1991.c
 
-        BOJ/chap08/2263/2263.c)
+        # 2263 : 트리 순회 (과제 6)
+#        BOJ/chap08/2263/2263.c
+
+
+        # -------------------chap09-------------------
+        # 1966 프린터 큐 : 중요도를 판단해서 출력
+        BOJ/chap09/1966/UsefulHeap.h
+        BOJ/chap09/1966/UsefulHeap.c
+        BOJ/chap09/1966/PriorityQueue.h
+        BOJ/chap09/1966/PriorityQueue.c
+        BOJ/chap09/1966/1966_package.c
+
+        )
