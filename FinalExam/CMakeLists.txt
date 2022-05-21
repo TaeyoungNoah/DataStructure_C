@@ -104,12 +104,14 @@ add_executable(FinalExam
 #        chap10/HeapSort/HeapSort.c
 
         # 병합 정렬
-        chap10/Sort/MergeSort.c
+#        chap10/Sort/MergeSort.c
 
 
+        # 퀵 정렬
 #        chap10/Sort/QuickSort.c
 
-
+        # Problem 10-1 퀵정렬 개선
+        chap10/Problem10-1/QuickSort.c
 
         # ========================================== BOJ ================================================
 
@@ -131,6 +133,7 @@ add_executable(FinalExam
 #        BOJ/chap09/1966/PriorityQueue.h
 #        BOJ/chap09/1966/PriorityQueue.c
 #        BOJ/chap09/1966/1966_package.c
+
 
 
         )
