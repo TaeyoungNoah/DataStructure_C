@@ -66,7 +66,7 @@ add_executable(FinalExam
 #        chap08/Problem08-2/ListBaseStack.c
 
 
-        # ========================================== CHAP 08 ================================================
+        # ========================================== CHAP 09 ================================================
         # 간단한 Heap
 #        chap09/SimpleHeap/SimpleHeap.h
 #        chap09/SimpleHeap/SimpleHeap.c
@@ -86,6 +86,30 @@ add_executable(FinalExam
 
 
 
+        # ========================================== CHAP 10 ================================================
+        # ====== O(n^2) ======
+        # 버블 정렬
+#        chap10/Sort/BubbleSort.c
+
+        # 선택 정렬
+#        chap10/Sort/SelectionSort.c
+
+        # 삽입 정렬
+#        chap10/Sort/InsertionSort.c
+
+        # ====== O(nlog2n) ======
+        # 힙정렬
+#        chap10/HeapSort/UsefulHeap.h
+#        chap10/HeapSort/UsefulHeap.c
+#        chap10/HeapSort/HeapSort.c
+
+        # 병합 정렬
+        chap10/Sort/MergeSort.c
+
+
+#        chap10/Sort/QuickSort.c
+
+
 
         # ========================================== BOJ ================================================
 
@@ -102,10 +126,11 @@ add_executable(FinalExam
 
         # -------------------chap09-------------------
         # 1966 프린터 큐 : 중요도를 판단해서 출력
-        BOJ/chap09/1966/UsefulHeap.h
-        BOJ/chap09/1966/UsefulHeap.c
-        BOJ/chap09/1966/PriorityQueue.h
-        BOJ/chap09/1966/PriorityQueue.c
-        BOJ/chap09/1966/1966_package.c
+#        BOJ/chap09/1966/UsefulHeap.h
+#        BOJ/chap09/1966/UsefulHeap.c
+#        BOJ/chap09/1966/PriorityQueue.h
+#        BOJ/chap09/1966/PriorityQueue.c
+#        BOJ/chap09/1966/1966_package.c
+
 
         )
