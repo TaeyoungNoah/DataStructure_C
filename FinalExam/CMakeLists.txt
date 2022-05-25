@@ -111,7 +111,12 @@ add_executable(FinalExam
 #        chap10/Sort/QuickSort.c
 
         # Problem 10-1 퀵정렬 개선
-        chap10/Problem10-1/QuickSort.c
+#        chap10/Problem10-1/QuickSort.c
+
+        # 기수 정렬
+        chap10/RadixSort/ListBaseQueue.h
+        chap10/RadixSort/ListBaseQueue.c
+        chap10/RadixSort/RadixSort.c
 
         # ========================================== BOJ ================================================
 
@@ -133,7 +138,6 @@ add_executable(FinalExam
 #        BOJ/chap09/1966/PriorityQueue.h
 #        BOJ/chap09/1966/PriorityQueue.c
 #        BOJ/chap09/1966/1966_package.c
-
 
 
         )
