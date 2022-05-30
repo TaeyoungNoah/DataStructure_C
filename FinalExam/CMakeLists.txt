@@ -114,9 +114,31 @@ add_executable(FinalExam
 #        chap10/Problem10-1/QuickSort.c
 
         # 기수 정렬
-        chap10/RadixSort/ListBaseQueue.h
-        chap10/RadixSort/ListBaseQueue.c
-        chap10/RadixSort/RadixSort.c
+#        chap10/RadixSort/ListBaseQueue.h
+#        chap10/RadixSort/ListBaseQueue.c
+#        chap10/RadixSort/RadixSort.c
+
+
+        # ========================================== CHAP 10 ================================================
+        # 이진 탐색
+#        chap11/RecursiveBinarySearch.c
+
+        # 보간 탐색
+#        chap11/InterpolSearch.c
+
+        # 이진 탐색 트리
+#        chap11/BinarySearchTree/BinarySearchTree.h
+#        chap11/BinarySearchTree/BinarySearchTree.c
+#        chap11/BinarySearchTree/BinaryTree2.h
+#        chap11/BinarySearchTree/BinaryTree2.c
+#        chap11/BinarySearchTree/BinarySearchTreeMain.c
+
+        # 이진 탐색 트리 삭제까지
+        chap11/BinarySearchTreeDelAdded/BinarySearchTree2.h
+        chap11/BinarySearchTreeDelAdded/BinarySearchTree2.c
+        chap11/BinarySearchTreeDelAdded/BinaryTree3.h
+        chap11/BinarySearchTreeDelAdded/BinaryTree3.c
+        chap11/BinarySearchTreeDelAdded/BinarySearchTreeDelMain.c
 
         # ========================================== BOJ ================================================
 
@@ -139,5 +161,14 @@ add_executable(FinalExam
 #        BOJ/chap09/1966/PriorityQueue.c
 #        BOJ/chap09/1966/1966_package.c
 
+        # -------------------chap09-------------------
+        # 2750 수 정렬 (과제)
+#        BOJ/chap10/2750.c
+
+        # -------------------chap10-------------------
+
+        # -------------------chap11-------------------
+        # 1920 수 찾기 (해보라고 하심)
+#        BOJ/chap11/1920.c
 
         )
