@@ -119,7 +119,7 @@ add_executable(FinalExam
 #        chap10/RadixSort/RadixSort.c
 
 
-        # ========================================== CHAP 10 ================================================
+        # ========================================== CHAP 11 ================================================
         # 이진 탐색
 #        chap11/RecursiveBinarySearch.c
 
@@ -134,11 +134,60 @@ add_executable(FinalExam
 #        chap11/BinarySearchTree/BinarySearchTreeMain.c
 
         # 이진 탐색 트리 삭제까지
-        chap11/BinarySearchTreeDelAdded/BinarySearchTree2.h
-        chap11/BinarySearchTreeDelAdded/BinarySearchTree2.c
-        chap11/BinarySearchTreeDelAdded/BinaryTree3.h
-        chap11/BinarySearchTreeDelAdded/BinaryTree3.c
-        chap11/BinarySearchTreeDelAdded/BinarySearchTreeDelMain.c
+#        chap11/BinarySearchTreeDelAdded/BinarySearchTree2.h
+#        chap11/BinarySearchTreeDelAdded/BinarySearchTree2.c
+#        chap11/BinarySearchTreeDelAdded/BinaryTree3.h
+#        chap11/BinarySearchTreeDelAdded/BinaryTree3.c
+#        chap11/BinarySearchTreeDelAdded/BinarySearchTreeDelMain.c
+
+        # ========================================== CHAP 14 ================================================
+        # 그래프 구현
+#        chap14/ALGraph/DLinkedList.h
+#        chap14/ALGraph/DLinkedList.c
+#        chap14/ALGraph/ALGraph.h
+#        chap14/ALGraph/ALGraph.c
+#        chap14/ALGraph/ALGraphMain.c
+
+        # DFS : 깊이 우선 탐색 (비밀)
+#        chap14/ALGraphDFS/DLinkedList.h
+#        chap14/ALGraphDFS/DLinkedList.c
+#        chap14/ALGraphDFS/ArrayBaseStack.h
+#        chap14/ALGraphDFS/ArrayBaseStack.c
+#        chap14/ALGraphDFS/ALGraphDFS.h
+#        chap14/ALGraphDFS/ALGraphDFS.c
+#        chap14/ALGraphDFS/DFSMain.c
+
+        # Problem14-2 : 사전 뒤부터 방문
+#        chap14/Problem14-2/DLinkedList.h
+#        chap14/Problem14-2/DLinkedList.c
+#        chap14/Problem14-2/ArrayBaseStack.h
+#        chap14/Problem14-2/ArrayBaseStack.c
+#        chap14/Problem14-2/ALGraphDFS.h
+#        chap14/Problem14-2/ALGraphDFS.c
+#        chap14/Problem14-2/DFSMain.c
+
+        # BFS : 너비 우선 탐색
+#        chap14/ALGraphBFS/DLinkedList.h
+#        chap14/ALGraphBFS/DLinkedList.c
+#        chap14/ALGraphBFS/CircularQueue.h
+#        chap14/ALGraphBFS/CircularQueue.c
+#        chap14/ALGraphBFS/ALGraphBFS.h
+#        chap14/ALGraphBFS/ALGraphBFS.c
+#        chap14/ALGraphBFS/BFSMain.c
+
+        # KruskalAlgorithms : 최소 비용 신장 트리
+        chap14/KruskalAlgorithms/ALEdge.h
+        chap14/KruskalAlgorithms/DLinkedList.h
+        chap14/KruskalAlgorithms/DLinkedList.c
+        chap14/KruskalAlgorithms/UsefulHeap.h
+        chap14/KruskalAlgorithms/UsefulHeap.c
+        chap14/KruskalAlgorithms/PriorityQueue.h
+        chap14/KruskalAlgorithms/PriorityQueue.c
+        chap14/KruskalAlgorithms/ArrayBaseStack.h
+        chap14/KruskalAlgorithms/ArrayBaseStack.c
+        chap14/KruskalAlgorithms/ALGraphKruskal.h
+        chap14/KruskalAlgorithms/ALGraphKruskal.c
+        chap14/KruskalAlgorithms/KruskalMain.c
 
         # ========================================== BOJ ================================================
 
@@ -164,6 +213,12 @@ add_executable(FinalExam
         # -------------------chap09-------------------
         # 2750 수 정렬 (과제)
 #        BOJ/chap10/2750.c
+
+        # 11399 : ATM 돈 인출 최소 시간 구하기
+#        BOJ/chap10/11399.c
+
+        # 1427 : 소트인사이드 (내림차순)
+#        BOJ/chap10/1427.c
 
         # -------------------chap10-------------------
 
