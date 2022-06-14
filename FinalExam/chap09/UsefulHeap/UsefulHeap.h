@@ -8,6 +8,9 @@
 
 typedef char HData;
 typedef int PriorityComp(HData data1, HData data2);
+// data1 이 data2 보다 우선순위 높으면 양수
+// 우선순위 같으면 0
+// data2 의 우선순위가 높다면 음수
 
 typedef struct _heap {
     PriorityComp *comp;

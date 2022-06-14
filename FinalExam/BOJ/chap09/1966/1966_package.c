@@ -11,30 +11,19 @@ int main(void) {
     for (int i=0; i<T; i++) {
         PQueue pq;
         PQueueInit(&pq, DataPriorityComp);
-        scanf("%d %d", &N, &M);
-        for (int j=0; j<N; j++) {
+        scanf("%d %d", &N, &M); // data 개수, 몇번째로 나오는지 궁금한 수
+        for (int i=0; i<N; i++) {
             scanf("%d", &temp);
             PEnqueue(&pq, temp);
         }
-
-        result = 0;
-
-        for (int j=0; j<M; j++) {
-            PDequeue(&pq);
+        result=0;
+        while(!PQIsEmpty(&pq)) {
             result++;
-        }
-
-
-
-        while(TRUE) {
             temp = PDequeue(&pq);
             if (temp==M) {
-                result++;
                 break;
             }
-            result++;
         }
-
         printf("%d\n", result);
     }
 
