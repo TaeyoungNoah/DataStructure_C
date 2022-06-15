@@ -6,10 +6,25 @@ set(CMAKE_C_STANDARD 99)
 add_executable(FinalExam
 #        main.c
 
+        EXAM/no1/UsefulHeap.h
+        EXAM/no1/UsefulHeap.c
+        EXAM/no1/PriorityQueue.h
+        EXAM/no1/PriorityQueue.c
+        EXAM/no1/PriorityQueueMain.c
 
-#        EXAM/practice/new.c
+#        EXAM/no2/BinaryTree2.h
+#        EXAM/no2/BinaryTree2.c
+#        EXAM/no2/BinarySearchTree.h
+#        EXAM/no2/BinarySearchTree.c
+#        EXAM/no2/BinarySearchTreeMain.c
 
-
+#        EXAM/no3/DLinkedList.h
+#        EXAM/no3/DLinkedList.c
+#        EXAM/no3/CircularQueue.h
+#        EXAM/no3/CircularQueue.c
+#        EXAM/no3/ALGraphBFS.h
+#        EXAM/no3/ALGraphBFS.c
+#        EXAM/no3/BFSMain.c
 
 
         # ========================================== CHAP 07 ================================================
@@ -146,11 +161,11 @@ add_executable(FinalExam
 #        chap11/BinarySearchTree/BinarySearchTreeMain.c
 
         # 이진 탐색 트리 삭제까지
-        chap11/BinarySearchTreeDelAdded/BinarySearchTree2.h
-        chap11/BinarySearchTreeDelAdded/BinarySearchTree2.c
-        chap11/BinarySearchTreeDelAdded/BinaryTree3.h
-        chap11/BinarySearchTreeDelAdded/BinaryTree3.c
-        chap11/BinarySearchTreeDelAdded/BinarySearchTreeDelMain.c
+#        chap11/BinarySearchTreeDelAdded/BinarySearchTree2.h
+#        chap11/BinarySearchTreeDelAdded/BinarySearchTree2.c
+#        chap11/BinarySearchTreeDelAdded/BinaryTree3.h
+#        chap11/BinarySearchTreeDelAdded/BinaryTree3.c
+#        chap11/BinarySearchTreeDelAdded/BinarySearchTreeDelMain.c
 
         # ========================================== CHAP 14 ================================================
         # 그래프 구현

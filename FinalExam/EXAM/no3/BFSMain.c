@@ -1,3 +1,4 @@
+#define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 #include "ALGraphBFS.h"
 
@@ -14,7 +15,6 @@ int main(void) {
         scanf("%d %d", &fromV, &toV);
         AddEdge(&graph, fromV-1, toV-1);
     }
-
 
     BFShowGraphVertex(&graph, startV-1);
 
